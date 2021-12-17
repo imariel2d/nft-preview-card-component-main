@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Outfit', sans-serif;
+  --color-cyan: hsl(178, 100%, 50%);
+  --color-dark-main-background: hsl(217, 54%, 11%);
+  --color-dark-background: hsl(216, 50%, 16%);
+  --color-dark-text: hsl(215, 32%, 27%);
+  --color-soft-blue: hsl(215, 51%, 70%);
+  --color-white: white;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: var(--color-dark-main-background);
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-cyan {
+  color: var(--color-cyan)
+}
+
+.color-soft-blue {
+  color: var(--color-soft-blue);
+}
+
+.color-white {
+  color: var(--color-white);
+}
